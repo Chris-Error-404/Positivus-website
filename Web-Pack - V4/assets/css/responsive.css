@@ -96,7 +96,6 @@
     a.book-btn{
         background-color: #191a23;
         color: #ffffff;
-        border-bottom: 0px solid #191a23;
         padding: 0.8em;
         padding-left: 1.5em;
         padding-right: 1.5em;
@@ -106,7 +105,6 @@
         transition: border-bottom 0.1s;
         text-decoration: none; /* to remove underline */
         border-bottom: 4px solid #b9ff66;
-        outline: 1px solid #191a23;
     }
     
     a.book-btn:hover{
