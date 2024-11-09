@@ -600,9 +600,11 @@ div.team-content{
 div.person{
     margin-bottom: 1em;
 }
+
 div.person img{
-    width: 80%;
+    width: 90%;
 }
+
 div.talk{
     margin-top: 1em;
 }
