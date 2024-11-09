@@ -110,7 +110,6 @@
     a.book-btn:hover{
         text-decoration: none; /* to remove underline */
         border-bottom: 4px solid #b9ff66;
-        outline: 1px solid #191a23;
     }
     
     div.hero-img{
