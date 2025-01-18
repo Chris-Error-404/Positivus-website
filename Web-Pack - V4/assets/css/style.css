@@ -664,7 +664,85 @@ div.footer img{
     width: 10%;
     margin: 1em;
 }
+
+
+
+
+/*New footer*/
+footer{
+    margin-top: 5vh;
+    background-color: #191a23;
+    color: #f3f3f3;
+}
+
+footer ul.footer-list a,i{
+    color: #cecaca;
+    transition: all 0.5s ease;
+}
+
+
+footer ul.footer-list a:hover {
+    color: #b9ff66
+}
+
+footer ul.footer-list a:hover i{
+    color: #b9ff66
+}
+
+
+footer div.footer-logo-container{
+    padding: 4em;
+    padding-bottom: 2em;
+}
+
+.footer-logo-container img{
+    width: 10%;
+}
+
+.footer-container{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-container h4{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-container ul,li{
+    margin-bottom: 0.85em;
+}
+
+.footer-container i{
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #afadad;
+    font-size: 0.8em;
+    padding: 1em;
+    padding-bottom: 4em;
+}
+
+.sub-footer a{
+    color: #afadad;
+    transition: all 0.5s ease;
+}
+
+.sub-footer a:hover{
+    color: #b9ff66;
+}
+
 /* end FOOTER */
+
 
 
 
