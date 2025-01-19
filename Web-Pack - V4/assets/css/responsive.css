@@ -401,25 +401,31 @@ div.newsletter-text p{
 
 @media (max-width:786px){
     /* FOOTER */
-div.footer{
-    margin-top: 2em;
-    color: #ffffff;
-    text-align: center;
-    background-color: #191a23;
-    padding: 2em;
-}
-
-div.footer p{
-    font-size:0.75em;
-    line-height: 2em;
-}
-
-div.footer img{
-    width: 30%;
-    margin: 1em;
-}
+    .footer-logo-container img{
+        width: 30%;
+    }
+    
+    footer div.footer-logo-container{
+         padding: 2em;
+        padding-bottom: 1m;
+    }
+    
+    .footer-container{
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .footer-container h4{
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    
+    }
 /* end FOOTER */
-}
 
     /* UTILITIES */
 @media (max-width: 768px){
